@@ -1,11 +1,11 @@
 # Munin plugin for elasticsearch
 
-A useful Munin plugin for monitoring elasticsearch 1.x nodes in Perl.<br />
+A useful Munin plugin for monitoring elasticsearch nodes in Perl.<br />
 This original codes has out of maintenance, so I have started maintenance this plugin.
 
 ## Features
 
-* Supports elasticsearch 1.0.x / 1.1.x / 1.2.x / 1.3.x / 1.4.x / 2.x / 5.x
+* Supports elasticsearch 1.0.x / 1.1.x / 1.2.x / 1.3.x / 1.4.x / 2.x / 5.x / 6.x
 * Supports monitoring local and/or another hosts
 
 ## Plugins
@@ -48,6 +48,9 @@ env.port 9200
 ```
 
 ## Install
+
+* Ensure perl json and lwp modules are installed
+* packages on Ubuntu 18.04 are libwww-perl, libjson-perl. 
 
 Install this plugins with following steps after config setuped.
 
